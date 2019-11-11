@@ -15,12 +15,14 @@
   2. You are not allowed to write any more of a unit test than is sufficient to fail; and compilation failures are failures.
   3. You are not allowed to write any more production code than is sufficient to pass the one failing unit test.```
 ---
+# What usually happens
+---
 1. Write tests
 2. Run tests **ensure it fails!**
 3. Write some code 
 4. Run tests **ensure it passes!**
 5. Refactor code
-6. Repeat
+6. GOTO 1
 ---
 # So far so good, but what does this have to do with Go?
 ---
@@ -30,4 +32,8 @@
 ---
 # It's ideal for TDD
 ---
+
+---
 # But why TDD?
+
+### 
