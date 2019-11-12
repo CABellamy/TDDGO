@@ -24,16 +24,27 @@
 5. Refactor code
 6. GOTO 1
 ---
-# So far so good, but what does this have to do with Go?
+### So far so good, but what does this have to do with Go?
 ---
-### Like functions, testing is also a first class citizen in Go
 ### Powerful testing package
+### Like functions, testing is also a first class citizen in Go
 ### Can start writing tests before you even think about touching main
 ---
 # It's ideal for TDD
 ---
+Functional code makes testing easy.
+As long as your functions match the interface signature it's easy to mock
+The standard library makes this easy.
+Dependency Injection is EASY - No frameworks!
+---
+io.Writer
 
+Note: 
+- https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/dependency-injection
 ---
 # But why TDD?
 
-### 
+### Test Contravariance
+
+Note:
+- https://blog.cleancoder.com/uncle-bob/2017/10/03/TestContravariance.html
