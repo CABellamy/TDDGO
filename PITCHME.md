@@ -1,13 +1,10 @@
 ## Test Driven Development Go
 ### Chris Bellamy
 ---
-### Software development process 
-
-### Emphasis on short development cycles
-
-### Requirements focused
-
-### Attributed to American software engineer Kent Beck
+#### Software development process 
+#### Emphasis on short development cycles
+#### Requirements focused
+#### Attributed to American software engineer Kent Beck
 ---
 # Tenants of TDD
 ---
@@ -42,9 +39,17 @@ io.Writer
 Note: 
 - https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/dependency-injection
 ---
-# But why TDD?
-
 ### Test Contravariance
-
+Separate tests from implementation
+Call private members directly
+No need for complex abstractions just to make code testable
 Note:
 - https://blog.cleancoder.com/uncle-bob/2017/10/03/TestContravariance.html
+---
+# But why TDD?
+
+"It's too slow"
+"It costs too much"
+"It's a waste of time"
+"spend more time testing than actually writing code"
+---
